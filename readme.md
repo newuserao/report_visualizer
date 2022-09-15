@@ -4,7 +4,7 @@ I will introduce what I did step by step in the below section:
 
 ## Summary ##
 
-This system is designed like a pipeline between bigquery and firestore. For visualization I used datastudio. I tought that, creating a mini flask app to show embeded data studio report on web application would be suitable. 
+This system is designed like a pipeline between bigquery and firestore. For visualization I used datastudio. I thought that, creating a mini flask app to show embeded data studio report on web application would be suitable. 
 This Project requires a service account key file as json. It should be uploaded on the main folder. I did not upload it for the security. 
 If this project goes live, Airflow needed to create dependencies between each task while keeping it in a single DAG.
 ```create_firestore_data.py --> upload_to_bq.py --> run app```
